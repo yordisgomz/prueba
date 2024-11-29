@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Sofia.</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap"
+      rel="stylesheet"
+    />
+    <link href="assets/css/style.css" rel="stylesheet" />
+    <link href="assets/css/form.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header>
+      <div class="row">
+        <div class="col-12 barra-navegacion">
+          <p class="navbar-brand">Sofia.</p>
+          <nav class="navbar navbar-expand">
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="login.html">Ingresar</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="registro.html">Registrarse</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 banner"></div>
+      </div>
+    </header>
+    <main>
+      <form class="formulario-registro">
+        <h4>Iniciar sesión:</h4>
+        <div class="form-group row">
+          <label for="usuarioInput" class="col-12 col-sm-2 col-form-label"
+            >Usuario</label
+          >
+          <div class="col-sm-10 columna-input">
+            <input
+              type="text"
+              class="form-control"
+              id="usuarioInput"
+              placeholder="Usuario"
+            />
+          </div>
+        </div>
+        <div class="form-group row">
+          <label for="passwordInput" class="col-12 col-sm-2 col-form-label"
+            >Contraseña</label
+          >
+          <div class="col-12 col-sm-10 columna-input">
+            <input
+              type="password"
+              class="form-control"
+              id="passwordInput"
+              placeholder="Contraseña"
+            />
+          </div>
+        </div>
+        <div class="form-check row">
+          <div class="col-12 seccion-recordar-password">
+            <label class="form-check-label" for="recordarPassword"
+              >¿Desea recordar su contraseña?</label
+            >
+            <input
+              class="form-check-input"
+              type="checkbox"
+              value=""
+              id="recordarPassword"
+            />
+          </div>
+        </div>
+        <div class="row">
+            <div class="col-12 div-boton">
+              <button type="button" class="btn btn-outline-secondary boton-login boton-recuperar-password">Recuperar contraseña</button>
+                <button type="button" class="btn btn-secondary boton-login boton-iniciar-sesion">Iniciar Sesión</button>
+            </div>
+        </div>
+      </form>
+    </main>
+    <footer class="footer">
+      <div class="row">
+        <div class="col-6 redes-sociales">
+          <p>Encontranos en:</p>
+          <div class="iconos-redes">
+          <img src="assets/img/instagram.png" class="red">
+          <img src="assets/img/whatsapp.png" class="red">
+          <img src="assets/img/facebook.png" class="red">
+          <img src="assets/img/twitter.png" class="red">
+        </div>
+        </div>
+        <div class="col-6 copyright">
+          <p>María Sofía Fregona</p>
+          <p>Copyright 2022</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
